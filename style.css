@@ -65,7 +65,7 @@ body {
     width: 100px; /* Adjust width as needed */
     height: 100px; /* Adjust height as needed */
     background-size: cover; /* Ensures the image covers the entire container */
-    animation: slideLeftToRight 30s ease-in-out forwards; /* Adjust timing as needed */
+    animation: slideLeftToRight 40s ease-in-out forwards; /* Adjust timing as needed */
 }
 
 @keyframes slideLeftToRight {
