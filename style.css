@@ -1,0 +1,80 @@
+* {margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/03/73/07/77/360_F_373077774_2pfY348HCPrLrkyWr8WVFHlYLDJaeAmX.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.h11 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: Mongolian Baiti;
+    font-weight: 100;
+    letter-spacing: 10;
+    background: linear-gradient(rgba(0,0,0,0.50));
+    width: 90%; height: auto;
+    margin: 20px auto;
+
+}
+.h11 {
+    border-top: 2px;
+    border-left: 2px;
+    box-sizing: border-box;
+    border: 1px solid;
+    box-shadow: 2px 5px 10px 5px;
+    
+}
+
+.btn { 
+    font-family: "Mongolian Baiti";
+    font-size: 20px; 
+    font-weight: bold;
+    background:#CB4335;
+    padding: 10px;
+    border-radius: 15px;
+    color:#ECF0F1 ;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+     align-content: center;
+    align-items: center;
+    margin-left: 90%;
+
+}
+.btn:hover{
+    background-color:#641E16 ;
+}
+
+.text {
+    text-align: center;
+    font-size: 35;
+    text-shadow: ;
+    color:;
+    font-family: serif;
+    letter-spacing: 25;
+    
+}
+
+.image {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-size: cover; /* Ensures the image covers the entire container */
+    animation: slideLeftToRight 30s ease-in-out forwards; /* Adjust timing as needed */
+}
+
+@keyframes slideLeftToRight {
+    0% {
+        transform: translateX(-500%);
+    }
+    100% {
+        transform: translateX(390%);
+    }
+}
+
+
